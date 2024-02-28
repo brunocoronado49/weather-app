@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(225, 226, 231);
+  margin-top: 100px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 3px 0 3pxpx rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  color: #040404;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+
+button:hover {
+  background-color: #074a91;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
